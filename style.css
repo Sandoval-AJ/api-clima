@@ -1,0 +1,103 @@
+/*link import de fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700&display=swap');
+/*font-family: 'Nunito', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+:root{
+    --color1:#2f3542;
+    --color2:#ff7f50;
+    --color3:#ff6b81;
+    --color4:#70a1ff;
+    --color5:#377cfc;
+    --color6:#7bed9f;
+    --color7:#3742fa;
+    --color8:#a4b0be;
+    --color9:#ffffff;
+    --color10:#34495e;
+
+}
+.classTitleClima{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9rem;
+    background-color: var(--color1);
+}
+h1{
+    color: var(--color4);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    width: 100%;
+    height: 100%;
+}
+#container-card{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 12rem auto;
+    width: 25rem;
+    height: 100%;
+    background-color: var(--color10);
+    border-radius: 15px;
+}
+#inputCard{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 20rem;
+    height: 2.5rem;
+    border: none;
+    margin: 1rem;
+    font-size: 20px;
+    outline: none;
+    border-radius: 15px;
+}
+.infoCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color);
+}
+.lugar{
+    display: flex;
+    justify-content: center;
+}
+#ciudad{
+    font-size: 30px;
+    margin-bottom: 0;
+}
+#pais{
+    margin-left: -.5rem;
+    margin-top: .5rem;
+}
+p{
+    margin: 1rem;
+}
+#idImgClima{
+    width: 10rem;
+    margin: .5rem;
+}
+#temperatura{
+    font-size: 50px;
+}
+#clima{
+    margin-top: -1.5rem;
+}
+

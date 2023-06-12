@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <!--css-->
+    <link rel="stylesheet" href="/style.css">
+   
+    
+</head>
+<body>
+    <header>
+        <div id="idTitleClima" class="classTitleClima">
+            <h1>Buscar clima de ...</h1>
+        </div>
+    </header>
+    <main>
+        <div id="container" class="container">
+            <form id="idCard" class="card">
+                <input type="text" autocomplete="off" placeholder="Buscar ciudad..." onclick="clearPlaceholder(this)" onblur="restPlaceholder(this)" id="inputCard">
+                <div id="idInfoCard" class="infoCard">
+                    <div id="container-card">
+                        <div class="lugar">
+                            <p id="ciudad">Zapala</p><p id="pais">AR</p>
+                        </div>
+                        <p id="data" >10/11/12</p>
+                        <img id="idImgClima" src="/imgClimas/lluvia.png" alt="imagen del clima">
+                        <p id="temperatura">12</p>
+                        <p id="clima">Viento y lluvia</p>
+                        <p id="rango" >12°c/15°c</p>
+                    </div>
+                  
+                </div>
+                
+            </form>
+        </div> 
+    </main>
+    <footer>
+
+    </footer>
+ <!--javascrip   con defer ejecuta el js al final del codigo-->
+    <script src="/index.js" defer></script> 
+</body>
+</html>
