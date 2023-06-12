@@ -20,11 +20,18 @@
     --color10:#34495e;
 
 }
+.fondo{
+
+    background-image: url(/imgClimas/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
 .classTitleClima{
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
-    height: 9rem;
+    height: 7rem;
     background-color: var(--color1);
 }
 h1{
@@ -33,25 +40,30 @@ h1{
 .container{
     display: flex;
     justify-content: center;
-    padding: 5rem;
+    padding: 3.5rem;
     width: 100%;
     height: 100%;
+    filter: blur(0);
 }
 #container-card{
     display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 1rem;
+    width: 90%;
+    border-radius: 25px;
+    background-color: var(--color10);
 }
 .card{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    margin: 12rem auto;
+    margin: 21rem auto;
     width: 25rem;
     height: 100%;
-    background-color: var(--color10);
+    background-color: var(--color1);
     border-radius: 15px;
 }
 #inputCard{
@@ -73,7 +85,6 @@ h1{
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background-color: var(--color);
 }
 .lugar{
     display: flex;
@@ -88,7 +99,17 @@ h1{
     margin-top: .5rem;
 }
 p{
+    color: var(--color4);
     margin: 1rem;
+}
+.container-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 150px;
+    background-color: var(--color1);
 }
 #idImgClima{
     width: 10rem;
@@ -98,6 +119,62 @@ p{
     font-size: 50px;
 }
 #clima{
+    background-color: var();
     margin-top: -1.5rem;
 }
-
+.cont-temp{
+    background-color: var(--color1);
+    margin: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    border-radius: 15px;
+    background-color: var(--color1);
+}
+.contFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 10rem;
+    width: 100%;
+    background-color: var(--color10);
+}
+.textFooter1, .textFooter2, .textFooter3{
+    color: var(--color9);
+}
+.textFooter1{
+    font-size: 20px;
+}
+.textFooter1:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    transition: .5s;
+    background-color: var(--color1);
+    color: var(--color3);
+    border-radius: 15px;
+    cursor: default;
+}
+.textFooter2{
+    font-size: 15px;
+}
+.textFooter3{
+    margin-bottom: 1rem;
+    color: var(--color3);
+}
+.textFooter3:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    transition: .5s;
+    background-color: var(--color3);
+    color: var(--color1);
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 0 25px var(--color3);
+}

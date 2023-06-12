@@ -17,28 +17,39 @@
         </div>
     </header>
     <main>
-        <div id="container" class="container">
-            <form id="idCard" class="card">
-                <input type="text" autocomplete="off" placeholder="Buscar ciudad..." onclick="clearPlaceholder(this)" onblur="restPlaceholder(this)" id="inputCard">
-                <div id="idInfoCard" class="infoCard">
-                    <div id="container-card">
-                        <div class="lugar">
-                            <p id="ciudad">Zapala</p><p id="pais">AR</p>
+        <div class="fondo">
+            <div id="container" class="container">
+                <form id="idCard" class="card">
+                    <input type="text" autocomplete="off" placeholder="Buscar ciudad..." onclick="clearPlaceholder(this)" onblur="restPlaceholder(this)" id="inputCard">
+                    <div id="idInfoCard" class="infoCard">
+                        <div id="container-card">
+                            <div class="lugar">
+                                <p id="ciudad">Zapala</p><p id="pais">AR</p>
+                            </div>
+                            <p id="data" >10/11/12</p>
+                            <div class="container-img">
+                                <img id="idImgClima" src="/imgClimas/lluvia.png" alt="imagen del clima">
+                            </div> 
+                            <div class="cont-temp">
+                                <p id="temperatura">12</p>
+                                <p id="clima">Viento y lluvia</p>
+                                <p id="rango" >12°c/15°c</p>
+                            </div>                   
                         </div>
-                        <p id="data" >10/11/12</p>
-                        <img id="idImgClima" src="/imgClimas/lluvia.png" alt="imagen del clima">
-                        <p id="temperatura">12</p>
-                        <p id="clima">Viento y lluvia</p>
-                        <p id="rango" >12°c/15°c</p>
+                      
                     </div>
-                  
-                </div>
-                
-            </form>
-        </div> 
+                    
+                </form>
+            </div> 
+        </div>
+        
     </main>
     <footer>
-
+        <div class="contFooter">
+            <p class="textFooter1">creado por Sandoval Agustin Jesus</p>
+            <p class="textFooter2">Imagenes sacadas de interner</p>
+            <p class="textFooter3">contacto</p>
+        </div>
     </footer>
  <!--javascrip   con defer ejecuta el js al final del codigo-->
     <script src="/index.js" defer></script> 
